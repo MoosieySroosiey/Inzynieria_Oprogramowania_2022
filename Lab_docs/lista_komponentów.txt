@@ -1,0 +1,25 @@
+LISTA KOMPONENTÓW:
+-Sklep.html <<page>>
+-PrzeglądarkaInternetowa.exe <<executable>>
+-PrzeglądarkaInternetowaMobilna.exe <<executable>>
+-SerwerWWW.exe <<executable>>
+-SSL.dll <<file>>
+-bd.accdb <<database>>
+-Access_Database_Engine.exe <<executable>>
+- <<executable>> serwer_telnet.exe 
+-klient_SSH.exe <<executable>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stereotyp określa czym jest kostka
