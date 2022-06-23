@@ -43,6 +43,6 @@
         <Button  Background="Honeydew"  Foreground="Black" Grid.Column="4" Grid.Row="5" Content="Views" FontSize="28" Click="Button_Click3" Grid.ColumnSpan="4"   />
 
 
-        <Label Foreground="Orange"  Content="Autor: Maciej Chopcian 130597" Grid.Row="5" Grid.Column="8" FontSize="8" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.ColumnSpan="4" Margin="0,0,22,4"/>
+        <Label Foreground="Orange"  Content="Maciej Chopcian " Grid.Row="5" Grid.Column="10" FontSize="8" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>
