@@ -1,0 +1,44 @@
+﻿<Window x:Class="projektWtyczki.WindowViews"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projektWtyczki"
+        mc:Ignorable="d"
+        Title="WindowViews" Height="450" Width="800">
+    <Grid Background="#FF151515">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Label  Foreground="White"   Content="Instruments" FontSize="30" HorizontalAlignment="Center" Grid.ColumnSpan="6"   />
+        <Label  Foreground="White"  Grid.Column="6" Content="Effects" FontSize="30" HorizontalAlignment="Center" Grid.ColumnSpan="6"  />
+        <DataGrid ItemsSource="{Binding}" Grid.Row="1" Grid.ColumnSpan="6" Grid.RowSpan="8" x:Name="dgInst"    IsReadOnly="True"></DataGrid>
+        <DataGrid  ItemsSource="{Binding}" Grid.Row="1" Grid.Column="6" Grid.ColumnSpan="6" Grid.RowSpan="8" x:Name="dgEff"    IsReadOnly="True"></DataGrid>
+        <Label Grid.Row="10" Foreground="Orange"   Content="Read only" FontSize="30" HorizontalAlignment="Center" Grid.ColumnSpan="12" />
+        
+    </Grid>
+</Window>
