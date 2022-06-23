@@ -23,7 +23,7 @@ namespace projektWtyczki
 
 
 
-        public bool IsOkPressed { get; set; }
+        public bool isOkPressed { get; set; }
         public WindowProp()
         {
             InitializeComponent();
@@ -37,13 +37,13 @@ namespace projektWtyczki
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            IsOkPressed = true;
+            isOkPressed = true;
             this.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            IsOkPressed = false;
+            isOkPressed = false;
             this.Close();
         }
         public Wtyczka  ReturnValue
