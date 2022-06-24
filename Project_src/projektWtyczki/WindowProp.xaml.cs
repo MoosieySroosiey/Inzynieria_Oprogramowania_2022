@@ -29,11 +29,6 @@ namespace projektWtyczki
             InitializeComponent();
         }
 
-        public WindowProp(Wtyczka wtyczka)
-        {
-            InitializeComponent();
-            ctlGrid.DataContext = wtyczka;
-        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -45,10 +40,6 @@ namespace projektWtyczki
         {
             isOkPressed = false;
             this.Close();
-        }
-        public Wtyczka  ReturnValue
-        {
-            get { return (Wtyczka)ctlGrid.DataContext; }
         }
     }
 }

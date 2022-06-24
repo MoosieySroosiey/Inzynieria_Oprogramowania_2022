@@ -100,7 +100,6 @@
     <Compile Include="WindowViews.xaml.cs">
       <DependentUpon>WindowViews.xaml</DependentUpon>
     </Compile>
-    <Compile Include="wtyczka.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
